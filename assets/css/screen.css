@@ -9,11 +9,14 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
-html{
+html {
 font-family: 'Roboto', sans-serif;
 font-size: 16px;
 line-height:24px;
 padding:12px;
+}
+body {
+  background-color: #ed7786;
 }
 #navigation {
   background-color: #2b2929;
@@ -27,17 +30,15 @@ padding:12px;
   position: relative;
   top: 5px;
 }
-h1{
+h1 {
   font-weight: 700;
   font-size: 24px;
 }
-h2{
-  padding-top: 48px;
+h2 {
   font-weight: 600;
   font-size: 22px;
 }
-h3{
-  padding-top: 24px;
+h3 {
   font-weight: 600;
   font-size: 18px;
 }
@@ -48,13 +49,13 @@ figure.photo{
 figure{
   padding-top: 48px;
 }
-@media screen and (min-width: 460px){
-  html{
+@media screen and (min-width: 460px) {
+  html {
     padding: 15px 15% 15px 15%;
   }
 }
 @media screen and (min-width: 700px){
-  html{
+  html {
     padding: 20px 20% 20px 20%;
   }
 }
@@ -68,7 +69,7 @@ figcaption{
   line-height: 16px;
   padding-top: 5px;
 }
-img{
+img {
   display: block;
   max-width: 100%;
 }
@@ -78,4 +79,5 @@ footer {
   padding: 15px;
   position: fixed;
   bottom: 10px;
+  left: 800px;
 }
