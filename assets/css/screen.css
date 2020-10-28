@@ -25,7 +25,7 @@ body {
   padding: 0.937em;
   word-spacing: 6.25em;
   text-align: center;
-  font-size: 1.125;
+  font-size: 1.125em;
 }
 #navigation li {
   display: inline;
@@ -33,6 +33,9 @@ body {
 }
 a:hover {
   color: white;
+  text-decoration: none;
+}
+a:link{
   text-decoration: none;
 }
 h1 {
@@ -49,26 +52,22 @@ h3 {
   font-weight: 600;
   font-size: 18px;
 }
-figure.photo{
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-}
 figure{
   padding-top: 3em;
 }
 @media screen and (min-width: 460px) {
   html {
-    padding: 0.937em 15% 0.937em 15%;
+    padding: 15px 15% 15px 15%;
   }
 }
 @media screen and (min-width: 700px){
   html {
-    padding: 1.25em 20% 1.25em 20%;
+    padding: 20px 20% 20px 20%;
   }
 }
 @media screen and (min-width: 950px){
   html{
-    padding: 1.5625em 22% 1.5625em 22%;
+    padding: 25px 22% 25px 22%;
   }
 }
 figcaption{
@@ -78,7 +77,6 @@ figcaption{
 }
 img {
   display: block;
-  max-width: 100%;
 }
 #index-para {
   padding-top: 1.5625em;
@@ -89,6 +87,10 @@ img {
 }
 .experiences {
 padding-bottom: 1.25em;
+}
+#dramas li {
+  font-weight: 600;
+  padding-top: 1.25em;
 }
 footer {
   background-color: #2b2929;
