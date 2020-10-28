@@ -29,7 +29,6 @@ body {
 }
 #navigation li {
   display: inline;
-  position: sticky;
 }
 a:hover {
   color: white;
