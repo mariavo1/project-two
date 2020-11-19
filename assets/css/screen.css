@@ -18,12 +18,11 @@ padding: 0.75em;
 body {
   background-color: #ed7786;
 }
-#navigation {
-  background-color: #2b2929;
+/* #navigation {
+  display: block;
+  background: #2b2929;
   opacity: .8;
-  top: 1.875em;
   padding: 0.937em;
-  word-spacing: 6.25em;
   text-align: center;
   font-size: 1.125em;
 }
@@ -37,6 +36,8 @@ a:hover {
 a:link{
   text-decoration: none;
 }
+*/
+
 h1 {
   font-weight: 700;
   font-size: 1.625em;
